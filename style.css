@@ -1,9 +1,14 @@
 #add-user{
     text-decoration: none;
+    font-weight: bold;  
+    
 }
 .update-button {
     text-decoration: none;
+    font-weight: bold;
+    
 }
 .delete-button{
     text-decoration: none;
+    font-weight: bold;
 }

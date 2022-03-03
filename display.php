@@ -47,8 +47,8 @@ include 'connect.php';
         <td class="table-danger">'.$email.'</td>
         <td class="table-secondary">'.$password.'</td>
         <td>
-        <button class="btn btn-outline-success"><a href="update.php? updateid='.$id.'" class="update-button text-dark">Update</a></button>
-        <button class="btn btn-outline-danger"><a href="delete.php? deleteid='.$id.'" class="delete-button text-dark">Delete</a></button>
+        <button class="btn btn-outline-success"><a href="update.php? updateid='.$id.'" class="update-button text-dark  ">Update</a></button>
+        <button class="btn btn-outline-danger"><a href="delete.php? deleteid='.$id.'" class="delete-button text-dark ">Delete</a></button>
         </td>
       </tr>';
      }
