@@ -11,13 +11,15 @@ include 'connect.php';
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
 
     <title>crud-operation</title>
   </head>
   <body>
      
   <div class="container">
-      <button class="btn btn-primary btn-lg my-5"><a href="user.php" class="text-light">Add User</a></button>
+      <button  class="btn btn-primary btn-lg my-5"><a href="user.php" id="add-user" class="text-light">Add User</a></button>
       <table class="table">
   <thead>
     <tr>
@@ -45,8 +47,8 @@ include 'connect.php';
         <td class="table-danger">'.$email.'</td>
         <td class="table-secondary">'.$password.'</td>
         <td>
-        <button class="btn btn-outline-success"><a href="update.php? updateid='.$id.'" class="text-dark">Update</a></button>
-        <button class="btn btn-outline-danger"><a href="delete.php? deleteid='.$id.'" class="text-dark">Delete</a></button>
+        <button class="btn btn-outline-success"><a href="update.php? updateid='.$id.'" class="update-button text-dark">Update</a></button>
+        <button class="btn btn-outline-danger"><a href="delete.php? deleteid='.$id.'" class="delete-button text-dark">Delete</a></button>
         </td>
       </tr>';
      }
