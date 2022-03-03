@@ -17,7 +17,9 @@ include 'connect.php';
     <title>crud-operation</title>
   </head>
   <body>
-     
+  <div class="text-center mt-5 ">
+    <h1 class="hearder-text">CRUD <span>OPERATION</span></h1>
+    </div>
   <div class="container">
       <button  class="btn btn-primary btn-lg my-5"><a href="user.php" id="add-user" class="text-light">Add User</a></button>
       <table class="table">

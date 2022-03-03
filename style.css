@@ -1,3 +1,9 @@
+.hearder-text{
+    color: rgb(252, 146, 47);
+}
+span{
+    color: black;
+}
 #add-user{
     text-decoration: none;
     font-weight: bold;  

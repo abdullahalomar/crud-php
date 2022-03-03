@@ -28,11 +28,15 @@ if (isset($_POST['submit'])) {
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
 
     <title>crud-operation</title>
   </head>
   <body>
-    
+    <div class="text-center mt-5 ">
+    <h1 class="hearder-text">CRUD <span>OPERATION</span></h1>
+    </div>
   <div class="container my-5 shadow-lg p-3 mb-5 bg-body rounded">
   <form method="post">
   <div class="mb-3">
